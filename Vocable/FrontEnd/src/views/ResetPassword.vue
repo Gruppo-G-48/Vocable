@@ -96,7 +96,7 @@ export default {
 
         try {
             // Invia la richiesta di reset della password al server
-            const response = await axios.post('https://vocable-g48-production-a10a.up.railway.app/api/utente/reset-password', {
+            const response = await axios.post('https://vocable-production.up.railway.app/api/utente/reset-password', {
                 token: this.token,
                 newPassword: this.newPassword
             });
